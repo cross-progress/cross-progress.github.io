@@ -1,0 +1,44 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+.page-header {
+  color: white;
+  text-align: center;
+  background-image: none;
+  background-color: black;
+  a {
+    color: white;
+    text-decoration: none;
+    }
+  a:hover {
+    color: lightblue;
+  }
+}
+
+.project-tagline {
+  font-size: x-large;
+}
+
+.main-content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: black;
+    font-weight: bold;
+    text-decoration: solid;
+  }
+
+  a {
+    color: black;
+    text-decoration: underline;
+
+    &:hover {
+      color: $body-link-color;
+    }
+  }
+}
